@@ -1,12 +1,12 @@
-# Maintainer: megadriver <megadriver at gmx dot com>
-# Contributor: Leonid.I
+# Maintainer: Tomoki Imai <tomo832@gmail.com>
+# Contributor: Leonid.I, megadriver <megadriver at gmx dot com>
 # This is basically the old evince-gtk PKGBUILD by pizzapunk
 # This one DOES conflict with evince from [extra], on purpose :)
 
-pkgname=evince2-light
+pkgname=evince2-light-xrandr-presentation-patch
 pkgver=2.32.0
 pkgrel=7
-pkgdesc="Simply a document viewer (GTK2 version, GNOME free!)"
+pkgdesc="Simply a document viewer with patch for presentation mode with xrandr (GTK2 version, GNOME free!)"
 arch=('i686' 'x86_64')
 url="http://projects.gnome.org/evince/"
 license=('GPL')
